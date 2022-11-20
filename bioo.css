@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+body {
+    background: url(media/bg.jpg);
+    background-size: 100%;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 54px;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+main {
+    background: #8b733e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 14px;
+    width: 95%;
+    max-width: 850px;
+    margin: 150px auto;
+    margin-top: 40px;
+    height: 430px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: larger;
+    align-items: center;
+    margin-bottom: 2%;
+    overflow: hidden;
+
+}
+img{
+    margin-left: 320px;
+    margin-bottom: 10px;
+    display: flex;
+    background: url(f1.jpg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.sidebar {
+    margin: 150px auto;
+    padding: 0;
+    width: 85px;
+    background-color: #fefffe;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;
+    height: 200px;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #5b6317;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+    .topnav {
+        background-color: #333;
+        overflow: hidden;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .topnav a.split {
+        float: right;
+        background-color: #04AA6D;
+        color: white;
+      }
+   
+      .bottom {
+        background: #ffffff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 14px;
+        text-align: center;
+        width: 95%;
+        max-width: 850px;
+        font-size: 40px;
+        margin: 150px auto;
+        height: 100px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin-top: 5%;
+        align-items: center;
+        overflow: hidden;
+    
+    } 
+    .text{
+        border-width: 2pt;
+        border-color: #000000;
+        width: 300;
+        height: 200px;
+    }

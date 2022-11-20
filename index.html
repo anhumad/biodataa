@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+    <div class="input">
+    <p>Hi!This page will led you to my personal page. But please tell me your name!</p>
+    <input type="text" id="your-name-input" placeholder="Your name..">
+    <a href="home.html">
+    <input type="submit" id="next-button"value="Submit">
+</div>
+<script> 
+
+const nextButton = document.getElementById("next-button");
+        const input = document.getElementById("your-name-input");
+        
+        nextButton.addEventListener("click", () => {
+          const name = input.value;
+          if(name !== "") {
+             sessionStorage.setItem("name", name);
+             window.location = "<link to your 2.html file>";
+             } else {
+                alert("Please fill your name")
+             }
+        });
+</script>
+</body>
+</html>
